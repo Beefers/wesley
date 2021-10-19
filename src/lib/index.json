@@ -1,0 +1,1 @@
+{"id":66,"method":"Runtime.evaluate","params":{"expression":"alert('amongus')","includeCommandLineAPI":true,"generatePreview":true,"userGesture":false,"awaitPromise":false,"throwOnSideEffect":true,"timeout":500,"disableBreaks":true,"replMode":true}}

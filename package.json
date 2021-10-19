@@ -1,0 +1,25 @@
+{
+  "name": "wesley",
+  "version": "1.0.0",
+  "description": "A thing",
+  "author": "Beef",
+  "license": "MIT",
+
+  "type": "module",
+  "main": "src/index.js",
+
+  "scripts": {
+    "inject": "node --no-warnings ."
+  },
+
+  "dependencies": {
+      "find-process": "^1.4.5",
+      "node-fetch": "^3.0.0",
+      "ws": "^8.2.3"
+  },
+
+  "devDependencies": {
+    "@types/node": "^16.11.1",
+    "@types/ws": "^8.2.0"
+  }
+}
