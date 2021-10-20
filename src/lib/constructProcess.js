@@ -16,11 +16,8 @@ export default async function(flavour) {
     };
 
     //? Darwin Compatibility
-    //? Discord's renderer process on OSX can be confirmed rather easily, based on the suffixes of the process.
-    //? Several processes are "Discord {flavour} Helper", but we can confirm the renderer using "Discord ${flavour} Helper (Renderer)"
+    //?  OSX process names are joined with spaces.
     if (process.platform === 'darwin') {
-        constructProcess.push('Helper');
-        constructProcess.push('(Renderer)');
         return constructProcess.join(" ");
     } else {
         return constructProcess.join("");
